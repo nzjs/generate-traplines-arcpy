@@ -1,2 +1,4 @@
 # generate-traplines-arcpy
- ArcGIS Toolbox script to dynamically generate traplines at desired width + interval + rotation values. Exports to shp for use on a Garmin GPS.
+For use as an ArcGIS Toolbox script. 
+
+Generate traplines at a desired width + interval (m), rotate the lines to desired direction, then clip to the input polygon feature and export. Output data in WGS84 shp format for use on Garmin GPS.
